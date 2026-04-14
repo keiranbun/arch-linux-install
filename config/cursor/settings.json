@@ -1,0 +1,26 @@
+{
+  // WORKBENCH
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 12,
+
+  // EDITOR
+  "editor.formatOnSave": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Hack Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+
+  // VIM
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+
+  // OTHER
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "cursor.composer.usageSummaryDisplay": "always",
+  "cSpell.userWords": ["vercel"],
+  "git.autofetch": true,
+}
