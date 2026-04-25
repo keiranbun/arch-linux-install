@@ -1,8 +1,8 @@
 [global]
   width = 350
   height = (0, 300)
-  origin = center #top-center
-  offset = (0, 0)
+  origin = top-right
+  offset = (20, 20)
 
   notification_limit = 5
   gap_size = 12
