@@ -19,13 +19,18 @@
 
 - [Download iso](https://archlinux.org/download/)
 - Place iso onto usb via [ventoy](https://www.ventoy.net/en/index.html)
-- boot into usb via bios
+- Boot into usb via bios
 
 2. ### Chroot into setup
 
 - `sudo mount /dev/nvme0n1p2 /mnt`
 - `sudo mount /dev/nvme0n1p1 /mnt/boot`
 - `sudo arch-chroot /mnt`
+
+## Xbox Controller (USB Dongle)
+
+- `sudo pacman -S linux-headers`
+- `yay -S xone-dkms-git xone-dongle-firmware`
 
 ## Clean up
 

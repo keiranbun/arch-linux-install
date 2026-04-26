@@ -1,3 +1,13 @@
+# Configuration Settings
+
+# Remove all .config that might clash
+rm -rf ~/.config/nvim ~/.config/kitty ~/.config/waybar ~/.config/wlogout ~/.config/wofi ~/.config/dunst 2>/dev/null
+
+# Copy all .config files to .config
+cp -r config/.config/* ~/.config
+
+# -----------------------------------------------------------------
+
 # Install Thunar fixes/settings
 
 CONFIG_DIR="/home/$USER/git/arch-linux-install/config/thunar"

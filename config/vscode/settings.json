@@ -20,7 +20,7 @@
   // OTHER
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false,
-  "cursor.composer.usageSummaryDisplay": "always",
   "cSpell.userWords": ["vercel"],
   "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
 }

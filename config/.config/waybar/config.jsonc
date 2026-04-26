@@ -18,12 +18,12 @@
     "custom/arch": {
       "format": " ",
       "tooltip": false,
-      "on-click": "wlogout"
+      "on-click": "wlogout",
     },
 
     "tray": {
       "icon-size": 21,
-      "spacing": 10
+      "spacing": 10,
     },
 
     "clock": {
@@ -31,7 +31,6 @@
       "format-alt": "{:%d %B}",
       "tooltip": false,
       "locale": "en_AU.UTF-8",
-      "on-click-right": "gnome-calendar"
     },
 
     "hyprland/workspaces": {
@@ -52,8 +51,8 @@
         "9": "9",
         "10": "10",
         "11": "11",
-        "12": "12"
-      }
+        "12": "12",
+      },
     },
 
     "pulseaudio": {
@@ -62,11 +61,11 @@
       "format-muted": "{icon} Muted",
       "format-icons": {
         "headphones": "",
-        "default": [" ", " "]
+        "default": [" ", " "],
       },
       "scroll-step": 5,
       "on-click": "pamixer -t",
-      "on-click-right": "pavucontrol"
-    }
-  }
+      "on-click-right": "pavucontrol",
+    },
+  },
 ]

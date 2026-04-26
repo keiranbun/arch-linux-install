@@ -1,6 +1,7 @@
 window {
   border: 1px solid #aa6bbd;
   background-color: #282a36;
+  font-size: large;
 }
 
 #input {
@@ -41,9 +42,15 @@ window {
   color: #f8f8f2;
 }
 
+#img {
+  margin-right: 10px;
+}
+
+/* -------- */
+/* SELECTED */
+/* -------- */
 #entry:selected {
-  background-color: #44475a;
-  border-radius: 5px;
+  background-color: #79547e;
 }
 
 #entry:selected #text {
