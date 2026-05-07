@@ -20,7 +20,9 @@
   // OTHER
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false,
-  "cSpell.userWords": ["vercel"],
+  "cSpell.userWords": ["keiran", "vercel"],
   "git.autofetch": true,
   "workbench.iconTheme": "material-icon-theme",
+  "cursor.composer.usageSummaryDisplay": "always",
+  "typescript.experimental.useTsgo": true
 }
